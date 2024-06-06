@@ -6,27 +6,41 @@
     <title>Template</title>
   </head>
   <body style="font-family: CP Sans Text, Arial, Helvetica, sans-serif">
-    <table style="background-image: url(https://interactiveworkshops.com/imgs/email/coupang/header.png); background-size: cover; background-position: right center; background-repeat: no-repeat; background-color: #00B6E2; color: white; width: 100%">
-      <tr>
-        <td width="100" style="padding: 16px">
-          <img
-            src="https://interactiveworkshops.com/imgs/email/coupang/rocket.png"
-            width="100px"
-            height="100px"
-          />
-        </td>
-        <td style="padding: 16px">
-          <h2 style="margin: 0 0 10px">Subheading</h2>
-          <h1 style="margin: 0">
-            <span style="margin-right: 10px">Main Heading</span>
-            <span style="font-size: 18px">Small Text</span>
-          </h1>
-        </td>
-      </tr>
-    </table>
+    <div
+      style="
+        background-color: #00b6e2;
+        color: white;
+        position: relative;
+        overflow: hidden;
+      "
+    >
+      <img
+        src="https://interactiveworkshops.com/imgs/email/coupang/header.png"
+        style="position: absolute; top: 0; right: 0; width: auto; height: 100%"
+      />
+
+      <table style="width: 100%; position: relative; z-index: 10">
+        <tr>
+          <td width="100" style="padding: 16px">
+            <img
+              src="https://interactiveworkshops.com/imgs/email/coupang/rocket.png"
+              width="100px"
+              height="100px"
+            />
+          </td>
+          <td style="padding: 16px">
+            <h2 style="margin: 0 0 10px">Subheading</h2>
+            <h1 style="margin: 0">
+              <span style="margin-right: 10px">Main Heading</span>
+              <span style="font-size: 18px">Small Text</span>
+            </h1>
+          </td>
+        </tr>
+      </table>
+    </div>
 
     <!-- Main Body (centered pane) -->
-    <table style="background-color: #F2F4F7; width: 100%; padding: 40px">
+    <table style="background-color: #f2f4f7; width: 100%; padding: 40px">
       <tr>
         <td></td>
         <td
@@ -39,7 +53,10 @@
         >
           <p>Hi, this is a template for email.</p>
 
-          <img src="https://interactiveworkshops.com/imgs/email/coupang/separator-palette.png" style="width:100%; height: auto; margin: 16px 0;" />
+          <img
+            src="https://interactiveworkshops.com/imgs/email/coupang/separator-palette.png"
+            style="width: 100%; height: auto; margin: 16px 0"
+          />
 
           <h3>Basic Instructions for use:</h3>
           <ol>
@@ -47,15 +64,24 @@
               Select All using Ctrl+A (Windows) or Cmd+A (Mac) and then Copy.
             </li>
             <li>Paste into your email client.</li>
-            <li>Replace the text, being careful not to select outside the text you would like to replace, otherwise it may change the formatting.</li>
+            <li>
+              Replace the text, being careful not to select outside the text you
+              would like to replace, otherwise it may change the formatting.
             </li>
           </ol>
 
-          <img src="https://interactiveworkshops.com/imgs/email/coupang/separator-clouds.png" style="width:100%; height: auto; margin: 16px 0;" />
-
+          <img
+            src="https://interactiveworkshops.com/imgs/email/coupang/separator-clouds.png"
+            style="width: 100%; height: auto; margin: 16px 0"
+          />
         </td>
         <td></td>
       </tr>
     </table>
+
+    <img
+      src="https://interactiveworkshops.com/imgs/email/coupang/header.png"
+      style="width: 100%; height: auto"
+    />
   </body>
 </html>
